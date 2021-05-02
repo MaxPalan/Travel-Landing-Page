@@ -1,0 +1,94 @@
+.pricing {
+    padding-top: 65px;
+    min-height: 537px;
+    background-color: #e3d5b8;
+    &__title {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 50px;
+        line-height: 80px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #1f1f1f;
+    }
+    &__wrapper {
+        margin-top: 57px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: relative;
+        width: 318px;
+        background-color: #fff;
+        overflow: hidden;
+        &-name {
+            margin-top: 35px;
+            text-align: center;
+            font-size: 22px;
+            line-height: 22px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #161616;
+        }
+        &-popular {
+            position: absolute;
+            padding: 50px 40px 10px 40px;
+            top: -28px;
+            left: -50px;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #1f1f1f;
+            background: #b4a993;
+            transform: rotate(-45deg);
+        }
+        &-price {
+            margin-top: 41px;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 60px;
+            line-height: 60px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #d03958;
+        }
+        &-list {
+            list-style-type: none;
+            margin-top: 33px;
+            &_item {
+                text-align: center;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 400;
+                letter-spacing: -0.02em;
+                color: #161616;
+            }
+        }
+        &-btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 42px;
+            width: 205px;
+            height: 49px;
+            background-color: #e3d5b8;
+            font-family: Montserrat;
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #161616;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #d03958;
+                color: #fff;
+            }
+        }
+    }
+}

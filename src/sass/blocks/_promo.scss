@@ -1,0 +1,113 @@
+.promo {
+    height: 693px;
+    padding: 247px 0 161px 0;
+    background: url(../img/bg_promo.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__text {
+        width: 493px;
+    }
+    &__title {
+        font-family: Montserrat;
+        font-size: 90px;
+        line-height: 80px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #d03958;
+        span {
+            color: #161616;
+        }
+    }
+    &__descr {
+        margin-top: 74px;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        color: #161616;
+    }
+    &__form {
+        position: absolute;
+        right: 0;
+        top: -11px;
+        form {
+            padding-bottom: 28px;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            min-height: 520px;
+            background-color: #d03958;
+            border-radius: 5px;
+            .info {
+                width: 353px;
+                padding: 17px 0 17px 19px;
+                font-family: PTSerif;
+                font-size: 20px;
+                line-height: 20px;
+                font-weight: 400;
+                letter-spacing: -0.02em;
+                color: #b5b5b5;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                margin: 0 auto;
+                margin-top: 18px;
+            }
+            input[placeholder="Full Name"] {
+                margin-top: 0;
+            }
+            .checkbox {
+                margin-left: 27px;
+                margin-top: 26px;
+                .accept {
+                    width: 19px;
+                    height: 18px;
+                    background-color: #ffffff;
+                }
+                label {
+                    font-size: 20px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    letter-spacing: -0.02em;
+                    color: #ffffff;
+                    margin-left: 23px;
+                }
+            }
+            .submit {
+                width: 353px;
+                margin: 0 auto;
+                margin-top: 20px;
+                font-family: Montserrat;
+                font-size: 22px;
+                line-height: 22px;
+                font-weight: 400;
+                letter-spacing: -0.02em;
+                color: #ffffff;
+                background-color: #161616;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                padding: 20px;
+                transition: 0.5s;
+                cursor: pointer;
+                &:hover {
+                    background-color: #fff;
+                    color: #161616;
+                }
+            }
+        }
+        &-title {
+            padding: 33px 0 37px 0;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 22px;
+            line-height: 22px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+        }
+    }
+}
